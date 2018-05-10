@@ -1,0 +1,157 @@
+html, body, .container {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+                font-family: 'Roboto', sans-serif;
+                font-family: 'Indie Flower', cursive;
+                font-family: 'Dosis', sans-serif;
+                font-family: 'Anton', sans-serif;
+                font-family: 'Quicksand', sans-serif;
+                font-family: 'Gloria Hallelujah', cursive;
+            }
+
+            
+            .container {
+                display: flex;
+                flex-wrap: wrap;
+               
+            }
+            
+            header {
+                width: 100%;
+                min-height: 12%;
+                background-color: #58B19F;
+                color: white;
+            }
+            
+            .project {
+                width: 20%;
+                height: 22.5%;
+                margin: 0;
+                padding: 0;
+                color: white;
+                text-align: center;   
+            }
+p {
+    margin-top: 40px; /* 45 when full screen */
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+h1 {
+    margin: 0;
+    padding-left: 10px;
+    
+}
+            
+.p_00 {
+    background-color: #D6A2E8;
+}
+            
+.p_01 {
+    background-color: #F8EFBA;
+}
+
+.p_02 {
+    background-color: #9AECDB;
+}
+
+.p_03 {
+    background-color: #55e6c1;
+}
+
+.p_04 {
+    background-color: #82589F;
+}
+
+.p_00 {
+    background-color: #D6A2E8;
+}
+
+.p_10 {
+    background-color: #FC427B;
+}
+
+.p_11 {
+    background-color: #fea47f;
+}
+
+.p_12 {
+    background-color: #25CCF7;
+}
+
+.p_13 {
+    background-color: #6D214F;
+}
+
+.p_14 {
+    background-color: #182C61;
+}
+
+.p_20 {
+    background-color: #FD7272;
+}
+
+.p_21 {
+    background-color: #2C3A47;
+}
+
+.p_22 {
+    background-color: #F97F51;
+}
+
+.p_23 {
+    background-color: #BDC581;
+}
+
+.p_24 {
+    background-color: #B33771;
+}
+
+.p_30 {
+    background-color: #3B3B98;
+}
+
+.p_31 {
+    background-color: #58B19F;
+}
+
+.p_32 {
+    background-color: #CAD3C8;
+}
+
+.p_33 {
+    background-color: #1B9CFC;
+}
+
+.p_34 {
+    background-color: #EAB543;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+           
