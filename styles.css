@@ -1,48 +1,48 @@
 html, body, .container {
-                width: 100%;
-                height: 100%;
-                margin: 0;
-                padding: 0;
-                font-family: 'Roboto', sans-serif;
-                font-family: 'Indie Flower', cursive;
-                font-family: 'Dosis', sans-serif;
-                font-family: 'Anton', sans-serif;
-                font-family: 'Quicksand', sans-serif;
-                font-family: 'Gloria Hallelujah', cursive;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Gloria Hallelujah', cursive;
             }
-
             
-            .container {
-                display: flex;
-                flex-wrap: wrap;
+.container {
+    display: flex;
+    flex-wrap: wrap;
                
-            }
+}
             
-            header {
-                width: 100%;
-                min-height: 12%;
-                background-color: #58B19F;
-                color: white;
-            }
+header {
+    width: 100%;
+    min-height: 12%;
+    background-color: black;
+    color: white;
+}
             
-            .project {
-                width: 20%;
-                height: 22.5%;
-                margin: 0;
-                padding: 0;
-                color: white;
-                text-align: center;   
-            }
+.project {
+    width: 20%;
+    height: 22.5%;
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: center;   
+}
+
 p {
     margin-top: 40px; /* 45 when full screen */
     margin-left: 10px;
     margin-right: 10px;
+    font-size: 30px;
 }
 
 h1 {
     margin: 0;
-    padding-left: 10px;
-    
+    padding-left: 10px;    
 }
             
 .p_00 {
@@ -128,6 +128,38 @@ h1 {
 .p_34 {
     background-color: #EAB543;
 }
+
+/* let's see */
+
+
+.container {
+  perspective: 1000;
+    background-color: black; 
+}
+.project {
+  transform-style: preserve-3d;
+  transition: all 2.0s linear;
+}
+.project:hover {
+  transform: rotateY(180deg);
+  box-shadow: -5px 5px 5px #aaa;
+}
+.face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;   
+}
+
+.face.back {
+  display: block;
+  transform: rotateY(180deg);
+  padding: 10px;
+  color: black;
+  text-align: center;
+  
+}
+
 
 
 
