@@ -9,6 +9,7 @@ html, body, .container {
     font-family: 'Anton', sans-serif;
     font-family: 'Quicksand', sans-serif;
     font-family: 'Gloria Hallelujah', cursive;
+    background-color: black;
             }
             
 .container {
@@ -36,12 +37,12 @@ header {
 p {
     margin-top: 40px; /* 45 when full screen */
     margin-left: 10px;
-    margin-right: 10px;
-    font-size: 30px;
+    margin-right: 10px;  
 }
 
 h1 {
     margin: 0;
+    padding: 0;
     padding-left: 10px;    
 }
             
@@ -133,8 +134,7 @@ h1 {
 
 
 .container {
-  perspective: 1000;
-    background-color: black; 
+  perspective: 1000;     
 }
 .project {
   transform-style: preserve-3d;
@@ -154,10 +154,14 @@ h1 {
 .face.back {
   display: block;
   transform: rotateY(180deg);
-  padding: 10px;
   color: black;
   text-align: center;
-  
+  color: black;
+}
+
+.text {
+    margin: 0;
+   
 }
 
 
