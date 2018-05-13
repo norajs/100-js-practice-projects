@@ -1,21 +1,18 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <script src="/js/jquery-3.3.1.min.js"></script>
-
         <title>Temperature converter</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/app.css">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+        <script src="actions.js"></script>
     </head>
     <body>
         
         <div class="container">
             <div id="title"><h1>Temperature converter</h1></div>
             <div class="temp_container">
-                <div class="temp"><input id="one" type="text" name="one" placeholder="F"></div>
-                <i id="arrow" class="fas fa-arrows-alt-h" style="font-size:24px"></i>
-                <div class="temp"><input id="two" type="text" name="two" placeholder="C"></div>
+                <div class="temp"><input type="text" name="fahrenheit"></div>
+                <div class="temp"><input type="text" name="celsius"></div> 
             
             </div>
             
@@ -25,6 +22,4 @@
     
     
     </body>
-    <script src="/js/app.js"></script>
-
 </html>
