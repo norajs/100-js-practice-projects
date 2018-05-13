@@ -27,7 +27,7 @@ header {
             
 .project {
     width: 20%;
-    height: 22.5%;
+    height: 22%;
     margin: 0;
     padding: 0;
     color: white;
@@ -152,7 +152,6 @@ h1 {
 }
 
 .face.back {
-  display: block;
   transform: rotateY(180deg);
   color: black;
   text-align: center;
@@ -161,7 +160,6 @@ h1 {
 
 .text {
     margin: 0;
-   
 }
 
 

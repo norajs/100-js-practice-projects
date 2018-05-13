@@ -3,16 +3,19 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <script
+            src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous">    
+        </script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles.css">
-        <link href="https://fonts.googleapis.com/css?family=Anton|Dosis|Gloria+Hallelujah|Indie+Flower|Quicksand|Roboto" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Anton|Dosis|Gloria+Hallelujah|Indie+Flower|Quicksand|Roboto" rel="stylesheet"> 
     </head>
     
     <body>
         
         <div class="container">
-            <header><h1>100 javascript practice projects</h1></header>
-            <div class="project p_00"><div class="front face"><img src="logo.png" style="width:200px"></div><div class="back face"><p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras odio felis, interdum id gravida quis, tempus et tellus. Duis mollis enim diam, non ultrices odio tincidunt eget. Duis maximus mi ac augue lacinia porttitor quis ac nulla. </p></div></div>
+            <header><h1><span id="count"></span><span id="count_text"> javascript practice projects</span></h1></header>
+            <div class="project p_00 added"><div class="front face"><img src="logo.png" style="width:200px"></div><div class="back face"><p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras odio felis, interdum id gravida quis, tempus et tellus. Duis mollis enim diam, non ultrices odio tincidunt eget. Duis maximus mi ac augue lacinia porttitor quis ac nulla. </p></div></div>
             <div class="project p_01"><div class="front face"><p>Coming soon...</p></div><div class="back face"><p class="text">Back face text</p></div></div>
             <div class="project p_02"><div class="front face"><p>Coming soon...</p></div><div class="back face"><p class="text">Back face text</p></div></div>
             <div class="project p_03"><div class="front face"><p>Coming soon...</p></div><div class="back face"><p class="text">Back face text</p></div></div>
@@ -33,5 +36,7 @@
             <div class="project p_33"><div class="front face"><p>Coming soon...</p></div><div class="back face"><p class="text">Back face text</p></div></div>
             <div class="project p_34"><div class="front face"><p>Coming soon...</p></div><div class="back face"><p class="text">Back face text</p></div></div>       
         </div>
+        
+        <script src="app.js"></script>
     </body>
 </html>
